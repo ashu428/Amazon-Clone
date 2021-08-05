@@ -15,13 +15,13 @@ function CheckoutProduct({ id, title, price, rating, image }) {
     <div className="checkoutProduct">
       <img className="checkoutProduct_image" src={image} alt="unable to load" />
 
-      <div className="product_info">
-        <h4 className="product_title">{title}</h4>
+      <div className="checkoutproduct_info">
+        <h4 className="checkoutproduct_title">{title}</h4>
         <p>
           <small>$</small>
           <strong>{price}</strong>
         </p>
-        <div className="product_rating">
+        <div className="checkoutproduct_rating">
           {Array(rating)
             .fill()
             .map((i) => (

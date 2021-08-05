@@ -11,17 +11,17 @@
   width: 300px;
 }
 
-.product_info {
+.checkoutproduct_info {
   padding-left: 50px;
   padding-right: 50px;
   margin-right: 50px;
 }
 
-.product_rating {
+.checkoutproduct_rating {
   display: flex;
 }
 
-.product_info > button {
+.chcekoutproduct_info > button {
   margin-top: 20px;
   background-color: #f0c14b;
   border: 1px solid;
@@ -29,7 +29,7 @@
   padding: 5px;
 }
 
-.product_title {
+.checkoutproduct_title {
   font-size: 17px;
   font-weight: 800;
 }

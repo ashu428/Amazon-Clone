@@ -10,7 +10,7 @@ function Home() {
         <img className="home_image" src={Background} alt="Unable to Load" />
       </div>
 
-      <div className="home_row">
+      <div className="home_row1">
         <Product
           id="1"
           title="Logitech G502 HERO High Performance Wired Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable"
@@ -34,7 +34,7 @@ function Home() {
         />
       </div>
 
-      <div className="home_row">
+      <div className="home_row2">
         <Product
           id="4"
           title="HC Collection Queen Bed Sheets Set - Bedding Sheets & Pillowcases w/ 16 inch Deep Pockets - Fade Resistant & Machine Washable - 4-Piece 1800 Series Queen Size Sheet Sets – Cream"
@@ -58,7 +58,15 @@ function Home() {
         />
       </div>
 
-      <div className="home_row"></div>
+      <div className="home_row3">
+        <Product
+          id="6"
+          title="Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor, Black"
+          price={129}
+          rating={4}
+          image="product2.jpeg"
+        />
+      </div>
     </div>
   );
 }

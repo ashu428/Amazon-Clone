@@ -43,3 +43,64 @@
 .product > button:hover {
   background-color: rgb(241, 241, 241);
 }
+
+@media (max-width: 500px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+    max-height: 200px;
+    min-width: 90px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .product > img {
+    max-height: 30px;
+    width: 100%;
+    object-fit: contain;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+
+  .product_info {
+    height: 60px;
+    margin-bottom: 5px;
+  }
+
+  .product_price {
+    margin-top: 2px;
+    font-size: 2px;
+  }
+
+  .product_rating {
+    display: flex;
+    font-size: 2px;
+  }
+
+  .product > button {
+    background-color: #f8c14b;
+    border: 1px solid;
+    margin-top: 5px;
+    border-color: #a88734 #9c7e31 #846a29;
+    width: 60%;
+    height: 10px;
+  }
+
+  .product > button:hover {
+    background-color: rgb(241, 241, 241);
+  }
+
+  .product_title {
+    font-size: 6px;
+    font-weight: 500;
+  }
+
+  .button_text {
+    font-size: 5px;
+  }
+}
