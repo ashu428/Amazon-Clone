@@ -25,13 +25,15 @@ function Home() {
           rating={4}
           image="product4.jpeg"
         />
-        <Product
-          id="3"
-          title="SAMSUNG Galaxy S21 Ultra 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade Camera 8K Video 108MP High Res, Phantom Black"
-          price={1099}
-          rating={5}
-          image="product5.jpeg"
-        />
+        <div className="product3">
+          <Product
+            id="3"
+            title="SAMSUNG Galaxy S21 Ultra 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade Camera 8K Video 108MP High Res, Phantom Black"
+            price={1099}
+            rating={5}
+            image="product5.jpeg"
+          />
+        </div>
       </div>
 
       <div className="home_row2">
@@ -49,13 +51,15 @@ function Home() {
           rating={3}
           image="product6.jpeg"
         />
-        <Product
-          id="6"
-          title="Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor, Black"
-          price={129}
-          rating={4}
-          image="product2.jpeg"
-        />
+        <div className="product3">
+          <Product
+            id="6"
+            title="Acer R240HY bidx 23.8-Inch IPS HDMI DVI VGA (1920 x 1080) Widescreen Monitor, Black"
+            price={129}
+            rating={4}
+            image="product2.jpeg"
+          />
+        </div>
       </div>
 
       <div className="home_row3">
