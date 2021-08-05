@@ -70,6 +70,14 @@ function Home() {
           rating={4}
           image="product2.jpeg"
         />
+
+        <Product
+          id="3"
+          title="SAMSUNG Galaxy S21 Ultra 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade Camera 8K Video 108MP High Res, Phantom Black"
+          price={1099}
+          rating={5}
+          image="product5.jpeg"
+        />
       </div>
     </div>
   );
