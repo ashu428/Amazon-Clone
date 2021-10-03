@@ -141,7 +141,7 @@ function Payment() {
         </div>
       </div>
       <h4>
-        Cared For Testing Payment - 4242424242424242 (use any future date , and
+        Card For Testing Payment - 4242424242424242 (use any future date , and
         any 3 digit CV)
       </h4>
     </div>
